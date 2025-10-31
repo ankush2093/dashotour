@@ -1,0 +1,417 @@
+$('.roye_slider').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 5,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 2,
+            nav: true
+        },
+        600: {
+            items: 2,
+            nav: true
+
+        },
+        900: {
+            items: 1,
+            nav: true
+
+        },
+        1200: {
+            items: 5,
+            nav: true
+
+        }
+
+    }
+
+});
+
+$('.pckSlider').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 5,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 1,
+            nav: true
+
+        },
+        900: {
+            items: 1,
+            nav: true
+
+        },
+        1200: {
+            items: 5,
+            nav: true
+
+        }
+
+    }
+
+});
+$('.recommended').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 5,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 1,
+            nav: true
+
+        },
+        900: {
+            items: 1,
+            nav: true
+
+        },
+        1200: {
+            items: 5,
+            nav: true
+
+        }
+
+    }
+
+});
+
+$('.honeymoon').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 5,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 1,
+            nav: true
+
+        },
+        900: {
+            items: 1,
+            nav: true
+
+        },
+        1200: {
+            items: 5,
+            nav: true
+
+        }
+
+    }
+
+});
+
+$('.yatra').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 5,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 1,
+            nav: true
+
+        },
+        900: {
+            items: 1,
+            nav: true
+
+        },
+        1200: {
+            items: 5,
+            nav: true
+
+        }
+
+    }
+
+});
+
+$('.most-popular').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 4,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 2,
+            nav: true
+        },
+        600: {
+            items: 2,
+            nav: true
+
+        },
+        900: {
+            items: 2,
+            nav: true
+
+        },
+        1200: {
+            items: 4,
+            nav: true
+
+        }
+
+    }
+
+});
+
+
+$('.reviewSlider').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 3,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 1,
+            nav: true
+
+        },
+        900: {
+            items: 1,
+            nav: true
+
+        },
+        1200: {
+            items: 3,
+            nav: true
+
+        }
+
+    }
+
+});
+
+
+$('.blogSlider').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 5,
+    margin: 20,
+    nav: true,
+    dot: false,
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 1,
+            nav: true
+
+        },
+        900: {
+            items: 1,
+            nav: true
+
+        },
+        1200: {
+            items: 5,
+            nav: true
+
+        }
+
+    }
+
+});
+
+
+// toggle menu
+
+let link = document.querySelectorAll(".navAnchor");
+
+link.forEach(btn => {
+    btn.addEventListener('click', () => {
+
+        link.forEach(other => {
+            if (other !== btn) {
+                other.parentElement.classList.remove("active");
+            }
+        })
+
+        btn.parentElement.classList.toggle("active");
+
+    })
+})
+
+
+// read more js 
+
+$(document).on('click', '.osreadmore', function (event) {
+    event.preventDefault();
+    var $this = $(this);
+    $this.siblings('.overviewSclips').toggleClass('readmore');
+    if ($this.text() === 'Read More') {
+        $this.text('Read Less');
+    } else {
+        $this.text('Read More');
+    }
+});
+
+$(document).on('click', '.osreadmore', function (event) {
+    event.preventDefault();
+    var $this = $(this);
+    $this.siblings('.mainoverview').toggleClass('readmore');
+    if ($this.text() === 'Read More') {
+        $this.text('Read Less');
+    } else {
+        $this.text('Read More');
+    }
+});
+
+
+// day wise toggle
+let navlink = document.querySelectorAll(".toggleDay");
+
+navlink.forEach(btn => {
+    btn.addEventListener('click', () => {
+
+        navlink.forEach(other => {
+            if (other !== btn) {
+                other.parentElement.classList.remove("active");
+            }
+        })
+
+        btn.parentElement.classList.toggle("active");
+
+    })
+})
+
+
+// Scroll to Top Button Functionality
+// Get the element once
+const scrollTopBtnLeft = document.getElementById('scrollTopBtnLeft');
+
+// Check if the button exists before adding listeners to avoid errors
+if (scrollTopBtnLeft) {
+    const SCROLL_THRESHOLD = 300; // Define the threshold once
+
+    // --- Scroll Listener for Show/Hide ---
+    window.addEventListener('scroll', () => {
+        // Use a single line to check and toggle the class
+        scrollTopBtnLeft.classList.toggle('show', window.pageYOffset > SCROLL_THRESHOLD);
+    });
+
+    // --- Click Listener for Scrolling ---
+    scrollTopBtnLeft.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}
+
+
+

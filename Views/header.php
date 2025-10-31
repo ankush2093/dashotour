@@ -34,16 +34,17 @@
             <div class="container">
                 <div class="nav_bar">
                     <div class="brand_bo">
-                        <img src="../Content/Images/header-logo.png" alt="" class="brand-logo">
+                        <a href="index.php">
+                        <img src="../Content/Images/header-logo.png" alt="" class="brand-logo"></a>
                     </div>
                     <div class="left_side">
                         <div class="list_ul">
                         <ul class="menu_list_ul">
                             <li class="list_main_toggle">
-                               
-                                  <button class="dropdown-toggle navi_link"  data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a href="index.php">
+                                  <button class=" navi_link"  data-bs-toggle="dropdown" aria-expanded="false">
                                     Home
-                                  </button>
+                                  </button></a>
                               
                             </li>
                             <li class="list_main_toggle">
@@ -94,9 +95,9 @@
                                     More
                                   </button>
                                   <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item drop_nav_lik"  href="#">About Us</a></li>
-                                    <li><a class="dropdown-item drop_nav_lik" href="#">Contact Us</a></li>
-                                    <li><a class="dropdown-item drop_nav_lik" href="#">Payment</a></li>
+                                    <li><a class="dropdown-item drop_nav_lik"  href="about-us.php">About Us</a></li>
+                                    <li><a class="dropdown-item drop_nav_lik" href="contact-us.php">Contact Us</a></li>
+                                    <li><a class="dropdown-item drop_nav_lik" href="payment.php">Payment</a></li>
                                   </ul>
                                 </div>
                             </li>
@@ -141,7 +142,7 @@
                             <div class="mobile_links">
                                 <ul class="mob_nav_lnk">
                                     <li class="list_navsdf">
-                                        <a href="#" role="button" class="navAnchor">
+                                        <a href="index.php" role="button" class="navAnchor">
                                             <span>
                                                 Home 
                                             </span>

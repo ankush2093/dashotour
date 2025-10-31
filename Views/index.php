@@ -876,7 +876,7 @@
                 Blog To Fuel <span class="uniq_text_span">Your Wanderlust</span>
             </h1>
 
-            <a href="#" class="viewAll">
+            <a href="blogs-category.php" class="viewAll">
                 View All
             </a>
         </div>
@@ -888,7 +888,7 @@
                             <img src="../Content/Images/blog.png" alt="" class="blog_img_here">
                         </div>
                         <div class="blog_contnet">
-                            <a href="#" class="blog_heading_title">
+                            <a href="blog-details.php" class="blog_heading_title">
                                 Taste Dubai like a Local: Food Spots You Shouldn't Miss
                             </a>
                             <p class="blog_date_update">
@@ -902,7 +902,7 @@
                             <img src="../Content/Images/blog.png" alt="" class="blog_img_here">
                         </div>
                         <div class="blog_contnet">
-                            <a href="#" class="blog_heading_title">
+                            <a href="blog-details.php" class="blog_heading_title">
                                 Taste Dubai like a Local: Food Spots You Shouldn't Miss
                             </a>
                             <p class="blog_date_update">
@@ -916,7 +916,7 @@
                             <img src="../Content/Images/blog.png" alt="" class="blog_img_here">
                         </div>
                         <div class="blog_contnet">
-                            <a href="#" class="blog_heading_title">
+                            <a href="blog-details.php" class="blog_heading_title">
                                 Taste Dubai like a Local: Food Spots You Shouldn't Miss
                             </a>
                             <p class="blog_date_update">
@@ -933,7 +933,7 @@
                         <p class="date_main_blog">
                             Published on May 8, 2025
                         </p>
-                        <a href="#" class="main_blog_title">
+                        <a href="blog-details.php" class="main_blog_title">
                             7 Must-Visit Buddhist Monasteries in Spiti Valley to Bring You Peace
                         </a>
                     </div>

@@ -5,6 +5,78 @@
     }
 </style>
 
+
+<section class="tour-catogery_hero_section">
+    <!-- Social Share Sidebar -->
+    <div class="social-share">
+        <div class="social-share-item social-count">1k</div>
+        <div class="social-share-item share-text">Share</div>
+        <a href="#" class="social-share-item social-facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-share-item social-google">
+            <i class="fab fa-google-plus-g"></i>
+        </a>
+        <a href="#" class="social-share-item social-twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-share-item social-linkedin">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="social-share-item social-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" class="social-share-item social-email">
+            <i class="far fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="tour-cat-hero-section">
+        <div class="tour-cat-hero-content">
+            <h1 class="tour-cat-hero-title">
+                <span class="highlight">Brazil & Argentina</span> Family Package
+            </h1>
+            <div class="divider"></div>
+            <p class="tour-cat-hero-subtitle">
+                World's leading Hotel Booking website, Over 30,000 Hotel rooms worldwide.
+            </p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-custom">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Brazil & Argentina
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Booking Bar -->
+        <div class="booking-bar">
+            <div class="container p-0">
+                <div class="booking-info">
+                    <div class="booking-item">
+                        <div class="booking-label">Location :</div>
+                        <div class="booking-value">Rio, Brazil</div>
+                    </div>
+                    <div class="booking-item">
+                        <div class="booking-label">Price :</div>
+                        <div class="booking-value">$500</div>
+                    </div>
+                    <div class="booking-item">
+                        <div class="booking-label">Duration :</div>
+                        <div class="booking-value">8 Nights / 9 Days</div>
+                    </div>
+                    <div class="booking-item">
+                        <button class="btn-book">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
 <section class="section_panel">
     <div class="container">
         <div class="row">
@@ -97,11 +169,11 @@
 
                                 <div class="tour_cat_btn text-center">
                                     <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
-                                        class="tour-btn">View Packages</a>
+                                        class="cat-tour-btn">View Packages</a>
                                     <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
-                                        class="tour-btn">Send Query</a>
+                                        class="cat-tour-btn">Send Query</a>
                                     <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
-                                        class="tour-btn">Price On Request</a>
+                                        class="cat-tour-btn">Price On Request</a>
                                 </div>
 
 
@@ -185,7 +257,20 @@
                                         </svg>
                                         <p>Sightseeing</p>
                                     </div>
+
                                 </div>
+
+                                <hr class="horizontal_line">
+
+                                <div class="tour_cat_btn text-center">
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">View Packages</a>
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">Send Query</a>
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">Price On Request</a>
+                                </div>
+
 
 
                             </div>
@@ -268,7 +353,20 @@
                                         </svg>
                                         <p>Sightseeing</p>
                                     </div>
+
                                 </div>
+
+                                <hr class="horizontal_line">
+
+                                <div class="tour_cat_btn text-center">
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">View Packages</a>
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">Send Query</a>
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">Price On Request</a>
+                                </div>
+
 
 
                             </div>
@@ -350,7 +448,20 @@
                                         </svg>
                                         <p>Sightseeing</p>
                                     </div>
+
                                 </div>
+
+                                <hr class="horizontal_line">
+
+                                <div class="tour_cat_btn text-center">
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">View Packages</a>
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">Send Query</a>
+                                    <a href="https://www.toyoutravel.in/himachal-tour-packages-from-hyderabad"
+                                        class="cat-tour-btn">Price On Request</a>
+                                </div>
+
 
 
                             </div>
@@ -639,603 +750,3 @@
 </section>
 
 <?php include 'footer.php'; ?>
-
-
-
-<style>
-    /* Tour Category Page Styles */
-
-    .tour_category_card {
-        background: #fff;
-        border-radius: 15px;
-        padding: 15px;
-        box-shadow: 0px 4px 15px rgba(129, 50, 5, 0.15);
-        margin-bottom: 30px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .horizontal_line {
-        border: none;
-        border-top: 2px solid #ccc;
-        margin: 0px 0;
-    }
-
-    .tour_category_card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0px 8px 25px rgba(129, 50, 5, 0.25);
-    }
-
-    .tour_category_img_box {
-        position: relative;
-        overflow: hidden;
-        border-radius: 10px;
-    }
-
-    .tour_category_img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 10px;
-        transition: transform 0.3s ease;
-    }
-
-    .tour_category_card:hover .tour_category_img {
-        transform: scale(1.05);
-    }
-
-    .tour_type_badge {
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        background: var(--primary-color);
-        color: #fff;
-        padding: 8px 20px;
-        border-radius: 25px;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: var(--primary-font);
-        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .tour_category_content {
-        padding-left: 5px;
-    }
-
-    .tour_category_heading {
-        font-size: 28px;
-        font-weight: bold;
-        color: #2a648e;
-        margin-bottom: 15px;
-        font-family: var(--primary-font);
-    }
-
-
-    .tour_route {
-        font-size: 16px;
-        color: #666;
-        margin-bottom: 20px;
-        font-weight: 500;
-    }
-
-    .tour_features {
-        display: flex;
-        gap: 20px;
-        margin-bottom: 25px;
-        flex-wrap: wrap;
-    }
-
-    .feature_item {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 14px;
-        color: #333;
-        font-weight: 600;
-    }
-
-    .feature_item svg {
-        color: var(--primary-color);
-    }
-
-    .tour_amenities {
-        display: flex;
-        gap: 30px;
-        margin-bottom: 20px;
-        flex-wrap: wrap;
-    }
-
-    .amenity_item {
-        text-align: center;
-        flex: 1;
-        min-width: 80px;
-    }
-
-    .amenity_item svg {
-        color: var(--primary-color);
-        margin-bottom: 8px;
-    }
-
-    .amenity_item p {
-        font-size: 14px;
-        font-weight: 600;
-        color: #333;
-        margin: 0;
-    }
-
-
-    .tour_cat_btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-top: 0.9rem;
-    }
-
-    .tour-btn {
-        background: linear-gradient(135deg, #007bff, #0056b3);
-        color: #fff;
-        padding: 6px 12px;
-        border-radius: 30px;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: capitalize;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        box-shadow: 0 3px 8px rgba(0, 123, 255, 0.3);
-    }
-
-    .tour-btn:hover {
-        background: linear-gradient(135deg, #0056b3, #004099);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 12px rgba(0, 86, 179, 0.4);
-    }
-
-    /* ✅ Mobile Responsive */
-    @media (max-width: 576px) {
-        .tour_cat_btn {
-            flex-direction: row;
-            gap: 2px;
-        }
-
-        .tour-btn {
-
-            margin: 0 auto;
-        }
-    }
-
-
-
-
-
-
-
-
-    /* Call to Action Sidebar */
-
-    .cta_sidebar {
-        position: sticky;
-        top: 100px;
-    }
-
-    .cta_box {
-        background: linear-gradient(135deg, var(--primary-color), rgb(237, 201, 127));
-        padding: 30px;
-        border-radius: 15px;
-        text-align: center;
-        box-shadow: 0px 4px 20px rgba(129, 50, 5, 0.3);
-        margin-bottom: 20px;
-    }
-
-    .cta_icon {
-        background: #fff;
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto 20px;
-    }
-
-    .cta_icon svg {
-        color: var(--primary-color);
-    }
-
-    .cta_title {
-        font-size: 24px;
-        font-weight: bold;
-        color: #fff;
-        margin-bottom: 15px;
-        font-family: var(--primary-font);
-    }
-
-    .cta_description {
-        font-size: 14px;
-        color: #fff;
-        margin-bottom: 25px;
-        line-height: 1.6;
-    }
-
-    .cta_button {
-        display: block;
-        background: #FCB10F;
-        color: #000;
-        padding: 15px 30px;
-        border-radius: 30px;
-        font-size: 16px;
-        font-weight: bold;
-        text-decoration: none;
-        margin-bottom: 15px;
-        transition: all 0.3s ease;
-        font-family: var(--primary-font);
-    }
-
-    .cta_button:hover {
-        background: #fff;
-        color: var(--primary-color);
-        transform: translateY(-2px);
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .cta_button_secondary {
-        display: block;
-        background: #fff;
-        color: var(--primary-color);
-        padding: 15px 30px;
-        border-radius: 30px;
-        font-size: 16px;
-        font-weight: bold;
-        text-decoration: none;
-        margin-bottom: 20px;
-        transition: all 0.3s ease;
-        font-family: var(--primary-font);
-    }
-
-    .cta_button_secondary:hover {
-        background: #FCB10F;
-        color: #000;
-        transform: translateY(-2px);
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .cta_whatsapp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        background: #25D366;
-        color: #fff;
-        padding: 12px 20px;
-        border-radius: 30px;
-        font-size: 14px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-
-    .cta_whatsapp:hover {
-        background: #128C7E;
-        transform: translateY(-2px);
-    }
-
-    .quick_info_box {
-        background: #fff;
-        padding: 25px;
-        border-radius: 15px;
-        box-shadow: 0px 4px 15px rgba(129, 50, 5, 0.15);
-    }
-
-    .quick_info_title {
-        font-size: 20px;
-        font-weight: bold;
-        color: var(--primary-color);
-        margin-bottom: 20px;
-        font-family: var(--primary-font);
-    }
-
-    .quick_info_list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .quick_info_list li {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 15px;
-        font-size: 14px;
-        color: #333;
-    }
-
-    .quick_info_list li svg {
-        color: #25D366;
-        flex-shrink: 0;
-    }
-
-    /* Responsive Styles for Tour Category */
-
-    @media (max-width: 768px) {
-        .tour_category_heading {
-            font-size: 22px;
-        }
-
-        .tour_category_img {
-            height: 200px;
-        }
-
-        .tour_category_content {
-            padding-left: 0;
-            margin-top: 20px;
-        }
-
-        .tour_amenities {
-            gap: 5px;
-        }
-
-        .amenity_item {
-            min-width: 60px;
-        }
-
-        .cta_sidebar {
-            position: relative;
-            top: 0;
-            margin-top: 30px;
-        }
-    }
-
-
-
-    /* Tour Category Page Styles End */
-
-
-    /* FAQ Section Styles */
-
-    .faq_section {
-        padding: 60px 0;
-        background: linear-gradient(135deg, #f8f9fa, #ffffff);
-    }
-
-    .faq_subtitle {
-        text-align: left;
-        font-size: 16px;
-        color: #666;
-        margin-bottom: 40px;
-        margin-top: -25px;
-    }
-
-
-    .faq_accordion {
-        margin-bottom: 40px;
-    }
-
-    .faq_item {
-        background: #fff;
-        border: none;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        overflow: hidden;
-        box-shadow: 0px 3px 10px rgba(129, 50, 5, 0.08);
-        transition: all 0.3s ease;
-    }
-
-    .faq_item:hover {
-        box-shadow: 0px 6px 20px rgba(129, 50, 5, 0.15);
-        transform: translateY(-3px);
-    }
-
-    .faq_button {
-        background: #fff;
-        border: none;
-        padding: 20px 25px;
-        font-size: 16px;
-        font-weight: 600;
-        color: #333;
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        width: 100%;
-        text-align: left;
-        box-shadow: none;
-        transition: all 0.3s ease;
-    }
-
-    .faq_button:not(.collapsed) {
-        background: linear-gradient(135deg, var(--primary-color), #a14006);
-        color: #fff;
-        box-shadow: none;
-    }
-
-    .faq_button:focus {
-        box-shadow: none;
-        border: none;
-    }
-
-    .faq_button:hover {
-        background: linear-gradient(135deg, #FCB10F15, #F5AB0C15);
-    }
-
-    .faq_button:not(.collapsed):hover {
-        background: linear-gradient(135deg, #a14006, var(--primary-color));
-    }
-
-    .faq_icon {
-        width: 35px;
-        height: 35px;
-        background: linear-gradient(135deg, #FCB10F, #F5AB0C);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-        transition: all 0.3s ease;
-    }
-
-    .faq_button:not(.collapsed) .faq_icon {
-        background: #fff;
-    }
-
-    .faq_icon svg {
-        color: #fff;
-    }
-
-    .faq_button:not(.collapsed) .faq_icon svg {
-        color: var(--primary-color);
-    }
-
-
-
-    .faq_answer {
-        padding: 20px 25px;
-        padding-left: 75px;
-        font-size: 15px;
-        line-height: 1.8;
-        color: #555;
-        background: #fff;
-        border-top: 1px solid #E0E0E0;
-    }
-
-    /* FAQ CTA Box */
-
-    .faq_cta_box {
-        background: linear-gradient(135deg, var(--primary-color), #a14006);
-        padding: 40px;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 30px;
-        box-shadow: 0px 8px 25px rgba(129, 50, 5, 0.3);
-        margin-top: 50px;
-    }
-
-    .faq_cta_content {
-        flex: 1;
-    }
-
-    .faq_cta_title {
-        font-size: 28px;
-        font-weight: bold;
-        color: #fff;
-        font-family: var(--primary-font);
-        margin-bottom: 10px;
-    }
-
-    .faq_cta_text {
-        font-size: 16px;
-        color: #fff;
-        margin: 0;
-        opacity: 0.9;
-    }
-
-    .faq_cta_buttons {
-        display: flex;
-        gap: 15px;
-    }
-
-    .faq_cta_btn {
-        padding: 15px 30px;
-        border-radius: 30px;
-        font-size: 16px;
-        font-weight: bold;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        transition: all 0.3s ease;
-        white-space: nowrap;
-    }
-
-    .call_btn {
-        background: #fff;
-        color: var(--primary-color);
-    }
-
-    .call_btn:hover {
-        background: #FCB10F;
-        color: #000;
-        transform: translateY(-3px);
-        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .enquiry_btn {
-        background: rgba(255, 255, 255, 0.2);
-        color: #fff;
-        border: 2px solid #fff;
-    }
-
-    .enquiry_btn:hover {
-        background: #fff;
-        color: var(--primary-color);
-        transform: translateY(-3px);
-        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Responsive Styles for FAQ Section */
-
-    @media (max-width: 768px) {
-        .faq_section {
-            padding: 40px 0;
-        }
-
-        .faq_subtitle {
-            font-size: 14px;
-            margin-bottom: 30px;
-        }
-
-        .faq_button {
-            padding: 15px 20px;
-            font-size: 15px;
-            gap: 12px;
-        }
-
-        .faq_icon {
-            width: 30px;
-            height: 30px;
-        }
-
-        .faq_icon svg {
-            width: 16px;
-            height: 16px;
-        }
-
-        .faq_button::after {
-            font-size: 24px;
-        }
-
-        .faq_answer {
-            padding: 15px 20px;
-            padding-left: 20px;
-            font-size: 14px;
-        }
-
-        .faq_cta_box {
-            flex-direction: column;
-            padding: 30px 25px;
-            text-align: center;
-        }
-
-        .faq_cta_title {
-            font-size: 22px;
-        }
-
-        .faq_cta_text {
-            font-size: 14px;
-        }
-
-        .faq_cta_buttons {
-            flex-direction: column;
-            width: 100%;
-        }
-
-        .faq_cta_btn {
-            width: 100%;
-            padding: 12px 25px;
-            font-size: 15px;
-        }
-    }
-
-    /* FAQ Section Styles End */
-</style>

@@ -415,7 +415,7 @@ if (scrollTopBtnLeft) {
 
 
 // Gallery Modal Functionality
-$(document).ready(function() {
+$(document).ready(function () {
     // All gallery images - add more images as needed
     const galleryImages = [
         '../Content/Images/detail-page/gallary-1.jpg',
@@ -439,7 +439,7 @@ $(document).ready(function() {
     }
 
     // Open gallery modal
-    $('.gallery-item, .openGallery').on('click', function(e) {
+    $('.gallery-item, .openGallery').on('click', function (e) {
         e.preventDefault();
         const index = $(this).data('index') || 0;
         updateGalleryImage(index);
@@ -448,13 +448,13 @@ $(document).ready(function() {
     });
 
     // Close gallery modal
-    $('#closeGallery').on('click', function() {
+    $('#closeGallery').on('click', function () {
         $('#galleryModal').fadeOut(300);
         $('body').css('overflow', 'auto');
     });
 
     // Close on background click
-    $('#galleryModal').on('click', function(e) {
+    $('#galleryModal').on('click', function (e) {
         if (e.target === this) {
             $(this).fadeOut(300);
             $('body').css('overflow', 'auto');
@@ -462,19 +462,19 @@ $(document).ready(function() {
     });
 
     // Previous image
-    $('#prevImage').on('click', function() {
+    $('#prevImage').on('click', function () {
         currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
         updateGalleryImage(currentIndex);
     });
 
     // Next image
-    $('#nextImage').on('click', function() {
+    $('#nextImage').on('click', function () {
         currentIndex = (currentIndex + 1) % galleryImages.length;
         updateGalleryImage(currentIndex);
     });
 
     // Keyboard navigation
-    $(document).on('keydown', function(e) {
+    $(document).on('keydown', function (e) {
         if ($('#galleryModal').is(':visible')) {
             if (e.key === 'ArrowLeft') {
                 $('#prevImage').click();
@@ -489,3 +489,33 @@ $(document).ready(function() {
 
 
 
+// Home Span Changing Text
+const textArray = [
+    "in Paris",
+    "in Switzerland",
+    "in Dubai",
+    "in Bali",
+    "in London",
+    "in Ladakh",
+    "in Kerala",
+    "in Goa",
+    "in Manali",
+    "in Jaipur"
+];
+
+
+const changeTextElement = document.querySelector(".change-text");
+let index = 0;
+
+function changeText() {
+    changeTextElement.innerHTML = "";
+
+    const newSpan = document.createElement("span");
+    newSpan.textContent = textArray[index].toUpperCase(); // <-- Uppercase here
+    changeTextElement.appendChild(newSpan);
+
+    index = (index + 1) % textArray.length;
+}
+
+changeText();
+setInterval(changeText, 2000);

@@ -162,8 +162,54 @@ a.query_cdnt {
   margin-top: 25px;
 }
 
-.banenr_headingg span {
+.banenr_headingg {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.change-text {
+  display: inline-block;
   color: #FCB10F;
+  position: relative;
+  overflow: hidden;
+  height: 1.2em;
+  vertical-align: bottom;
+  font-family: "Kaushan Script", cursive !important;
+}
+
+.change-text span {
+  display: block;
+  animation: slideText 3s ease-in-out forwards;
+  font-family: "Kaushan Script", cursive !;
+}
+
+@keyframes slideText {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+    /* start from bottom */
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+    /* come to position */
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+    /* stay visible */
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+    /* go up and vanish */
+  }
 }
 
 .bannner_lise_tab {
@@ -2812,7 +2858,7 @@ table {
 /* Contact Hero Section */
 .contact-us_hero {
   position: relative;
-  background: url("/Content/Images/contact-us-hero.png") no-repeat center center;
+  background: url("../../Images/contact-us-hero.png") no-repeat center center;
   background-size: cover;
   padding: 120px 0 80px;
   overflow: hidden;
@@ -4087,10 +4133,9 @@ table {
 }
 
 .about_text {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.8;
   color: #666;
-  margin-bottom: 20px;
   text-align: justify;
 }
 
@@ -4313,7 +4358,7 @@ table {
   font-size: 20px;
   font-weight: 700;
   color: var(--primary-color);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .wc_text {
@@ -4321,6 +4366,7 @@ table {
   line-height: 1.7;
   color: #666;
   margin: 0;
+  text-align: left;
 }
 
 /* Team Section */

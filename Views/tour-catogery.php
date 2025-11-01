@@ -35,17 +35,17 @@
     <section class="tour-cat-hero-section">
         <div class="tour-cat-hero-content">
             <h1 class="tour-cat-hero-title">
-                <span class="highlight">Brazil & Argentina</span> Family Package
+                <span class="highlight">Tour Type</span> Family Package
             </h1>
             <div class="divider"></div>
             <p class="tour-cat-hero-subtitle">
-                World's leading Hotel Booking website, Over 30,000 Hotel rooms worldwide.
+               Discover tours and stays across 30,000+ destinations.
             </p>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-custom">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        Brazil & Argentina
+                        Tour Type
                     </li>
                 </ol>
             </nav>

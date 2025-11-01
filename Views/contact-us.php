@@ -7,12 +7,22 @@
 
 
 
-<!-- Contact Hero Section -->
-<section class="contact-hero">
+<section class="blog_category_hero">
     <div class="container">
-        <div class="contact-hero-content">
-            <h1 class="contact-hero-title">Get In Touch</h1>
-            <p class="contact-hero-subtitle">We'd love to hear from you. Our team is always here to help.</p>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+
+                <h1 class="blog_category_title">Travel Tips & <span class="uniq_text_span">Guides</span></h1>
+                <p class="blog_category_subtitle">Discover expert travel advice, destination insights, and insider tips to make your journey unforgettable</p>
+
+                <nav aria-label="breadcrumb" class="blog_category_breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                        <li class="breadcrumb-item"><a href="blogs.php">Blogs</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Travel Tips</li>
+                    </ol>
+                </nav>
+            </div>
         </div>
     </div>
 </section>

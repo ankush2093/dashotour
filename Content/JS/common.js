@@ -414,4 +414,78 @@ if (scrollTopBtnLeft) {
 }
 
 
+// Gallery Modal Functionality
+$(document).ready(function() {
+    // All gallery images - add more images as needed
+    const galleryImages = [
+        '../Content/Images/detail-page/gallary-1.jpg',
+        '../Content/Images/detail-page/gallary-2.jpg',
+        '../Content/Images/detail-page/gallary-3.jpg',
+        '../Content/Images/detail-page/gallary-4.jpg',
+        '../Content/Images/detail-page/gallary-5.jpg',
+        '../Content/Images/detail-page/details-1.jpg',
+        '../Content/Images/detail-page/details-2.jpg',
+        '../Content/Images/detail-page/detail-3.jpg'
+    ];
+
+    let currentIndex = 0;
+
+    // Update modal image
+    function updateGalleryImage(index) {
+        currentIndex = index;
+        $('#galleryImage').attr('src', galleryImages[currentIndex]);
+        $('#currentImageIndex').text(currentIndex + 1);
+        $('#totalImages').text(galleryImages.length);
+    }
+
+    // Open gallery modal
+    $('.gallery-item, .openGallery').on('click', function(e) {
+        e.preventDefault();
+        const index = $(this).data('index') || 0;
+        updateGalleryImage(index);
+        $('#galleryModal').fadeIn(300).css('display', 'flex');
+        $('body').css('overflow', 'hidden');
+    });
+
+    // Close gallery modal
+    $('#closeGallery').on('click', function() {
+        $('#galleryModal').fadeOut(300);
+        $('body').css('overflow', 'auto');
+    });
+
+    // Close on background click
+    $('#galleryModal').on('click', function(e) {
+        if (e.target === this) {
+            $(this).fadeOut(300);
+            $('body').css('overflow', 'auto');
+        }
+    });
+
+    // Previous image
+    $('#prevImage').on('click', function() {
+        currentIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+        updateGalleryImage(currentIndex);
+    });
+
+    // Next image
+    $('#nextImage').on('click', function() {
+        currentIndex = (currentIndex + 1) % galleryImages.length;
+        updateGalleryImage(currentIndex);
+    });
+
+    // Keyboard navigation
+    $(document).on('keydown', function(e) {
+        if ($('#galleryModal').is(':visible')) {
+            if (e.key === 'ArrowLeft') {
+                $('#prevImage').click();
+            } else if (e.key === 'ArrowRight') {
+                $('#nextImage').click();
+            } else if (e.key === 'Escape') {
+                $('#closeGallery').click();
+            }
+        }
+    });
+});
+
+
 

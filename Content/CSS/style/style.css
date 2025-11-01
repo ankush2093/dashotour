@@ -2024,8 +2024,8 @@ table {
 
 
   /* detaile page start */
-  .tour_details_top_section {
-    padding-top: 6rem;
+  .tour_details {
+    margin-top: 7rem !important;
   }
 
   .long_t_img {
@@ -2534,6 +2534,29 @@ table {
 
 /* Payment Page Styles */
 
+/* Payment Hero Section */
+
+.payment_hero {
+  position: relative;
+  background: url("https://www.paycron.com/wp-content/uploads/2023/12/The-Future-of-QR-Code-Payments-in-Credit-Card-Processing.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 120px 0 80px;
+  overflow: hidden;
+}
+
+/* Shadow overlay */
+.payment_hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  /* shadow darkness */
+  z-index: 1;
+}
+
 .payment_section {
   padding-bottom: 50px;
 }
@@ -2962,6 +2985,7 @@ table {
   margin-bottom: 20px;
   position: relative;
   z-index: 1;
+  margin-top: 1rem;
 }
 
 .blog_category_breadcrumb .breadcrumb {
@@ -3412,54 +3436,24 @@ table {
 ======================================== */
 
 /* Contact Hero Section */
-.contact-hero {
-  background: linear-gradient(135deg, var(--primary-color), #a14006);
-  padding: 120px 0 80px;
+.contact-us_hero {
   position: relative;
+  background: url("/Content/Images/contact-us-hero.png") no-repeat center center;
+  background-size: cover;
+  padding: 120px 0 80px;
   overflow: hidden;
 }
 
-.contact-hero::before {
-  content: '';
+/* Shadow overlay */
+.contact-us_hero::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="white" opacity="0.1"/></svg>');
-  animation: drift 20s linear infinite;
-}
-
-@keyframes drift {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(100px);
-  }
-}
-
-.contact-hero-content {
-  text-align: center;
-  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
   z-index: 1;
-}
-
-.contact-hero-title {
-  font-size: 48px;
-  font-weight: 800;
-  color: #fff;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.contact-hero-subtitle {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.95);
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 /* Contact Info Cards */
@@ -4902,76 +4896,25 @@ table {
 /* About Us Page Styles Start */
 
 /* Hero Section */
-.about_hero_section {
+
+.about_us_hero {
   position: relative;
+  background: url("https://www.questtours.in/backend-assets/uploads/shutterstock_127288088_copy.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 120px 0 80px;
   overflow: hidden;
-  padding: 150px 0 100px;
-  background:
-    linear-gradient(135deg, rgba(129, 50, 5, 0.46), rgba(252, 177, 15, 0.54)),
-    url("https://www.questtours.in/backend-assets/uploads/shutterstock_127288088_copy.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-/* Decorative SVG overlay for subtle wave */
-.about_hero_section::before {
-  content: '';
+/* Shadow overlay */
+.about_us_hero::before {
+  content: "";
   position: absolute;
-  inset: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(255,255,255,0.1)" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128V320H0Z"></path></svg>');
-  background-size: cover;
-  background-position: bottom;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.about_hero_content {
-  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
-  text-align: center;
-}
-
-
-.about_hero_title {
-  font-size: 56px;
-  font-family: var(--primary-font);
-  color: #fff;
-  margin-bottom: 20px;
-  font-weight: 700;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.about_hero_subtitle {
-  font-size: 20px;
-  color: #fff;
-  margin-bottom: 30px;
-  font-weight: 400;
-}
-
-.about_breadcrumb {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 10px 25px;
-  border-radius: 30px;
-  backdrop-filter: blur(10px);
-}
-
-.about_breadcrumb a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.about_breadcrumb a:hover {
-  color: #FCB10F;
-}
-
-.about_breadcrumb span {
-  color: #fff;
 }
 
 /* Our Story Section */
@@ -5026,7 +4969,7 @@ table {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   position: relative;
   padding-left: 30px;
 }

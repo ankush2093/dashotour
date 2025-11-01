@@ -8,7 +8,7 @@
     <!-- Bootstrape -->
     <link rel="stylesheet" href="../Content/CSS/Bootstrap/bootstrap.min.css">
     <!-- internal css -->
-    <link rel="stylesheet" href="../Content/CSS/style/style.css">
+    <link rel="stylesheet" href="../Content/CSS/style/style.css?v=1.1">
     <!-- jquery Theme css -->
     <link rel="stylesheet" href="../Content/CSS/jQuery/jquery-ui.css">
     <!-- jquery owl-css -->

@@ -8,7 +8,7 @@
     <div class="container">
         <h3 class="banenr_Suubgs">Explore Rajasthan</h3>
         <h1 class="banenr_headingg">
-            BOOK YOUR DERAM TOUR <span>WITH</span>
+            BOOK YOUR DERAM TOUR <span class="change-text"></span>
         </h1>
 
         <div class="search_panel">

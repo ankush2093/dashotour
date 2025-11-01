@@ -1,9 +1,14 @@
 <?php include 'header.php'; ?>
 
 <!-- banner start here -->
+<!-- <style>
+    .tour_details {
+        margin-top: 7rem !important;
+    }
+</style> -->
 
-<section class="section_panel tour_details_top_section mt-6">
-    <div class="container">
+<section class="tour_details">
+    <div class="container mt-7">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-12">
                 <div class="">

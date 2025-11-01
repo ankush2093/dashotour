@@ -43,7 +43,7 @@
             <div class="col-lg-6">
                 <div class="about_story_content">
                     <span class="about_section_label">Our Story</span>
-                    <h2 class="about_section_title">Making <span class="uniq_text_span">Travel Dreams</span> Come True</h2>
+                    <h2 class="about_section_title">Making <span class="uniq_text_span">Travel Dreams</span> </h2>
                     <p class="about_text">Welcome to our journey of passion, dedication, and wanderlust. Since 2010, we have been committed to creating extraordinary travel experiences that leave lasting memories. Our story began with a simple dream: to make travel accessible, enjoyable, and unforgettable for everyone.</p>
                     <p class="about_text">What started as a small team of travel enthusiasts has grown into a trusted travel partner for thousands of happy travelers. We believe that travel is not just about visiting new places; it's about discovering new perspectives, creating memories, and experiencing the world in all its beauty.</p>
                     <div class="about_features">
@@ -69,8 +69,6 @@
         </div>
     </div>
 </section>
-
-
 
 <!-- Mission & Vision Section -->
 <section class="section_panel">
@@ -217,7 +215,6 @@
         <div class="text-center mb-5">
             <span class="about_section_label">Why Choose Us</span>
             <h2 class="about_section_title">What Makes Us <span class="uniq_text_span">Different</span></h2>
-            <p class="about_subtitle">We go beyond ordinary travel experiences to deliver extraordinary journeys</p>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-4">
@@ -260,14 +257,12 @@
     </div>
 </section>
 
-
 <!-- Best about_us_destinations Section -->
 <section class="section_panel">
     <div class="container">
         <div class="text-center mb-5">
-            <span class="about_section_label">Suggest You Best about_us_destinations</span>
-            <h2 class="about_section_title">Best <span class="uniq_text_span">about_us_destinations</span></h2>
-            <p class="about_subtitle">Explore our handpicked about_us_destinations that promise unforgettable experiences</p>
+            <span class="about_section_label">Suggest For You Best </span>
+            <h2 class="about_section_title">Best Destinations You  <span class="uniq_text_span">Should Explore</span></h2>
         </div>
         <div class="row">
             <div class="col-md-6 col-lg-3">
@@ -357,148 +352,7 @@
     </div>
 </section>
 
-
-
 <section class="section_panel extra_padding">
 </section>
 
 <?php include 'footer.php'; ?>
-
-<style>
-    /* Why Choose Us */
-    .why_choose_us_section {
-        background: linear-gradient(90deg, #F5EE723B, #F5AB0C1A);
-        padding: 10px 0px;
-    }
-
-    /* Services Section */
-    .services-section {
-        /* background: linear-gradient(90deg, #F5EE723B, #F5AB0C1A); ; */
-        margin-top: 40px;
-    }
-
-    .service-card {
-        background: white;
-        border-radius: 20px;
-        padding: 15px 15px;
-        margin-bottom: 30px;
-        box-shadow: 0 10px 30px rgba(129, 50, 5, 0.08);
-        transition: all 0.4s ease;
-        border: 2px solid transparent;
-        height: 100%;
-    }
-
-    .service-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 20px 40px rgba(129, 50, 5, 0.15);
-        border-color: var(--primary-color);
-    }
-
-    .service-icon {
-        width: 70px;
-        height: 70px;
-        background: linear-gradient(135deg, var(--primary-color), #a84307);
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 25px;
-        transition: all 0.4s ease;
-    }
-
-    .service-card:hover .service-icon {
-        transform: rotateY(360deg);
-    }
-
-    .service-icon i {
-        font-size: 32px;
-        color: white;
-    }
-
-    .service-title {
-        font-family: var(--primary-font);
-        color: var(--secondary-color);
-        font-size: 1.4rem;
-        margin-bottom: 15px;
-        font-weight: 600;
-    }
-
-    .service-description {
-        color: #666;
-        font-size: 0.95rem;
-        line-height: 1.6;
-        margin-bottom: 20px;
-    }
-
-    .service-link {
-        color: var(--primary-color);
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 0.9rem;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        transition: all 0.3s ease;
-    }
-
-    .service-link:hover {
-        gap: 12px;
-        color: #a84307;
-    }
-
-    @media (max-width: 768px) {
-
-
-        .service-card {
-            padding: 25px 20px;
-        }
-    }
-
-    /* About Us Destination Section */
-    .about_us_destination_card {
-        position: relative;
-        border-radius: 15px;
-        overflow: hidden;
-        margin-bottom: 30px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-        transition: all 0.5s;
-        height: 350px;
-    }
-
-    .about_us_destination_card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    }
-
-    .about_us_destination_card img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.5s;
-    }
-
-    .about_us_destination_card:hover img {
-        transform: scale(1.1);
-    }
-
-    .about_us_destination_overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-        padding: 30px 20px 20px;
-        color: white;
-    }
-
-    .about_us_destination_overlay h4 {
-        font-family: var(--primary-font);
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-
-    .about_us_destination_overlay p {
-        margin: 0;
-        font-size: 0.9rem;
-    }
-</style>

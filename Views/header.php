@@ -117,7 +117,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="query_cdnt">
+                                    <a  data-bs-toggle="modal" data-bs-target="#bookingModal"  class="query_cdnt">
                                         Enquiry Now
                                     </a>
                                 </li>

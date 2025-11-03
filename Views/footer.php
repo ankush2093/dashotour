@@ -373,6 +373,8 @@
 <script src="../Content/JS/jQuery/jquery-ui.js"></script>
 <!-- jquery owl-carousel -->
 <script src="../Content/JS/owl-carousel/owl.carousel.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!-- External Javascript -->
 
 

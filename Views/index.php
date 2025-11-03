@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 
 
 <!-- banner start -->
@@ -867,7 +867,7 @@
 <!-- customer review end -->
 
 <!-- blogs start -->
-<section class="section_panel extra_padding">
+<section class="section_panel ">
     <div class="container">
 
         <div class="heading_box">
@@ -944,129 +944,89 @@
 </section>
 <!-- blogs End -->
 
-
-<!-- Journey In Frame Section -->
+<!-- Journey In Frame Start -->
 <section class="section_panel">
     <div class="container">
-        <h1 class="main_heading">
-            Your <span class="uniq_text_span">Journey Awaits</span>
-        </h1>
-        <p class="text_aree">Experience the adventure of a lifetime with our curated travel experiences</p>
+        <div class="heading_box">
+            <h1 class="main_heading mrgin_botto">
 
-        <div class="journeyCarousel owl-carousel">
-            <!-- Journey Item 1 - Image -->
-            <div class="journey_frame_item">
+                Rajasthan  <span class="uniq_text_span">Top Selling Packages</span>
+            </h1>
+
+            <a href="#" class="viewAll">
+                View All
+            </a>
+        </div>
+        <div class="journeyFrameSlider owl-carousel">
+            <!-- Card 1 - Golden Triangle -->
+            <div class="journey-frame-card">
                 <div class="journey_media_wrapper">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThi4hCGPGNX_8uEC7wvd_QKoEUmU1I_wNjCg&s" alt="Journey" class="journey_media_img">
+                    <img class="journey_media_img" src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop"
+                        alt="Golden Triangle">
                     <div class="journey_overlay"></div>
                 </div>
                 <div class="journey_content">
-                    <h2 class="journey_title">Explore Majestic Rajasthan</h2>
-                    <p class="journey_description">Discover the royal heritage and vibrant culture of India's most colorful state</p>
-                    <div class="journey_cta_buttons">
-                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                            </svg>
-                            Enquiry
-                        </a>
-                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                            </svg>
-                            Book Now
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Journey Item 2 - Video -->
-            <div class="journey_frame_item">
-                <div class="journey_media_wrapper">
-                    <video class="journey_media_video" autoplay loop muted playsinline>
-                        <source src="https://cdn.pixabay.com/video/2020/07/25/45569-443244046_large.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="journey_overlay"></div>
-                </div>
-                <div class="journey_content">
-                    <h2 class="journey_title">Golden Triangle Experience</h2>
+                    <h3 class="journey_title">Golden Triangle Experience</h3>
                     <p class="journey_description">Journey through Delhi, Agra, and Jaipur - India's most iconic destinations</p>
                     <div class="journey_cta_buttons">
-                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                            </svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#bookingModal" class="journey_btn journey_enq_btn">
+                            <i class="fas fa-envelope"></i>
                             Enquiry
                         </a>
-                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                            </svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#bookingModal" class="journey_btn journey_book_btn">
+                            <i class="fas fa-shopping-bag"></i>
                             Book Now
                         </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Journey Item 3 - Image -->
-            <div class="journey_frame_item">
+            <!-- Card 2 - Golden Triangle -->
+            <div class="journey-frame-card">
                 <div class="journey_media_wrapper">
-                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/f2/b8/26.jpg" alt="Journey" class="journey_media_img">
+                    <img class="journey_media_img" src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&auto=format&fit=crop"
+                        alt="Golden Triangle">
                     <div class="journey_overlay"></div>
                 </div>
                 <div class="journey_content">
-                    <h2 class="journey_title">Desert Safari Adventure</h2>
-                    <p class="journey_description">Experience the magic of Thar Desert with camel rides and royal camps</p>
+                    <h3 class="journey_title">Golden Triangle Experience</h3>
+                    <p class="journey_description">Journey through Delhi, Agra, and Jaipur - India's most iconic destinations</p>
                     <div class="journey_cta_buttons">
-                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                            </svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#bookingModal" class="journey_btn journey_enq_btn">
+                            <i class="fas fa-envelope"></i>
                             Enquiry
                         </a>
-                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                            </svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#bookingModal" class="journey_btn journey_book_btn">
+                            <i class="fas fa-shopping-bag"></i>
                             Book Now
                         </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Journey Item 4 - Video -->
-            <div class="journey_frame_item">
+            <!-- Card 3 - Kerala Backwaters (Video) -->
+            <div class="journey-frame-card">
                 <div class="journey_media_wrapper">
-                    <video class="journey_media_video" autoplay loop muted playsinline>
-                        <source src="https://cdn.pixabay.com/video/2025/02/16/258654_large.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
+                    <video class="journey_media_video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&auto=format&fit=crop">
+                        <source src="https://www.pexels.com/download/video/8045813/" type="video/mp4">
                     </video>
                     <div class="journey_overlay"></div>
                 </div>
                 <div class="journey_content">
-                    <h2 class="journey_title">Himalayan Paradise</h2>
-                    <p class="journey_description">Breathtaking views and serene landscapes await in the mountains</p>
+                    <h3 class="journey_title">Kerala Backwaters</h3>
+                    <p class="journey_description">Serene houseboat experience through tranquil backwaters of God's Own Country</p>
                     <div class="journey_cta_buttons">
-                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                            </svg>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#bookingModal" class="journey_btn journey_enq_btn">
+                            <i class="fas fa-envelope"></i>
                             Enquiry
                         </a>
-                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                            </svg>
-                            Book Now
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#bookingModal" class="journey_btn journey_book_btn">
+                            <i class="fas fa-shopping-bag"></i> Book Now
                         </a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -1077,4 +1037,100 @@
 
 </section>
 
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
+
+
+<script>
+    const swiperJourneyFrame = new Swiper(".journey-frame-container", {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        navigation: {
+            nextEl: ".journey-swiper-button-next",
+            prevEl: ".journey-swiper-button-prev",
+        },
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true
+        },
+        speed: 800,
+        grabCursor: true,
+        centeredSlides: false,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                spaceBetween: 15
+            },
+            576: {
+                slidesPerView: 2,
+                spaceBetween: 15
+            },
+            992: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 20
+            }
+        },
+        on: {
+            init: function() {
+                initVideoControls();
+            },
+            slideChange: function() {
+                pauseAllVideos();
+            }
+        }
+    });
+
+    // Video controls functionality
+    function initVideoControls() {
+        const videoCards = document.querySelectorAll('.journey-frame-card');
+
+        videoCards.forEach(card => {
+            const video = card.querySelector('.journey_media_video');
+            const playIcon = card.querySelector('.video-play-icon');
+
+            if (video && playIcon) {
+                card.addEventListener('click', function(e) {
+                    const target = e.target;
+                    if (!target.closest('.journey_btn')) {
+                        e.preventDefault();
+
+                        if (video.paused) {
+                            pauseAllVideos();
+                            video.play();
+                            playIcon.style.opacity = '0';
+                        } else {
+                            video.pause();
+                            playIcon.style.opacity = '1';
+                        }
+                    }
+                });
+
+                video.addEventListener('ended', function() {
+                    playIcon.style.opacity = '1';
+                });
+
+                video.addEventListener('pause', function() {
+                    playIcon.style.opacity = '1';
+                });
+
+                video.addEventListener('play', function() {
+                    playIcon.style.opacity = '0';
+                });
+            }
+        });
+    }
+
+    function pauseAllVideos() {
+        const videos = document.querySelectorAll('.journey_media_video');
+        videos.forEach(video => {
+            if (!video.paused) {
+                video.pause();
+            }
+        });
+    }
+</script>

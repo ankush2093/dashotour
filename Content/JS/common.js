@@ -327,6 +327,54 @@ $('.blogSlider').owlCarousel({
 
 });
 
+$('.journeyFrameSlider').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    items: 4, // Changed from 5 to 4
+    margin: 20,
+    nav: true,
+    dots: false, // changed "dot" to correct "dots"
+    navText: [
+        '<span class="left_move comman_arrow"><i class="fas fa-chevron-left"></i></span>',
+        '<span class="right_move comman_arrow"><i class="fas fa-chevron-right"></i></span>'
+    ],
+    autoplay: true,
+    itemElement: 'div',
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 2,
+            nav: true
+        },
+        900: {
+            items: 3,
+            nav: true
+        },
+        1200: {
+            items: 4,
+            nav: true
+        }
+    }
+});
+
+$('.journeyFrameSlider').on('changed.owl.carousel', function(event) {
+    let current = event.item.index;
+    let videos = $('.journey_media_video');
+    videos.each(function(i, video) {
+        video.pause();
+    });
+    let activeVideo = $('.owl-item').eq(current).find('video').get(0);
+    if (activeVideo) {
+        activeVideo.play();
+    }
+});
+
 
 // toggle menu
 
@@ -517,50 +565,3 @@ changeText();
 setInterval(changeText, 2000);
 
 
-// Journey Carousel Initialization
-$('.journeyCarousel').owlCarousel({
-    loop: true,
-    items: 1,
-    margin: 0,
-    nav: true,
-    dots: true,
-    autoplay: true,
-    autoplayTimeout: 6000,
-    autoplayHoverPause: true,
-    smartSpeed: 1500,
-    animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
-    navText: [
-        '<i class="fas fa-chevron-left"></i>',
-        '<i class="fas fa-chevron-right"></i>'
-    ],
-    responsive: {
-        0: {
-            items: 1,
-            nav: true,
-            dots: true
-        },
-        600: {
-            items: 1,
-            nav: true,
-            dots: true
-        },
-        1000: {
-            items: 1,
-            nav: true,
-            dots: true
-        }
-    },
-    onInitialized: function(event) {
-        // Play all videos in the carousel
-        $('.journey_media_video').each(function() {
-            this.play();
-        });
-    },
-    onChanged: function(event) {
-        // Ensure videos continue playing after slide change
-        $('.journey_media_video').each(function() {
-            this.play();
-        });
-    }
-});

@@ -945,6 +945,134 @@
 <!-- blogs End -->
 
 
+<!-- Journey In Frame Section -->
+<section class="section_panel">
+    <div class="container">
+        <h1 class="main_heading">
+            Your <span class="uniq_text_span">Journey Awaits</span>
+        </h1>
+        <p class="text_aree">Experience the adventure of a lifetime with our curated travel experiences</p>
+
+        <div class="journeyCarousel owl-carousel">
+            <!-- Journey Item 1 - Image -->
+            <div class="journey_frame_item">
+                <div class="journey_media_wrapper">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThi4hCGPGNX_8uEC7wvd_QKoEUmU1I_wNjCg&s" alt="Journey" class="journey_media_img">
+                    <div class="journey_overlay"></div>
+                </div>
+                <div class="journey_content">
+                    <h2 class="journey_title">Explore Majestic Rajasthan</h2>
+                    <p class="journey_description">Discover the royal heritage and vibrant culture of India's most colorful state</p>
+                    <div class="journey_cta_buttons">
+                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg>
+                            Enquiry
+                        </a>
+                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Journey Item 2 - Video -->
+            <div class="journey_frame_item">
+                <div class="journey_media_wrapper">
+                    <video class="journey_media_video" autoplay loop muted playsinline>
+                        <source src="https://cdn.pixabay.com/video/2020/07/25/45569-443244046_large.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="journey_overlay"></div>
+                </div>
+                <div class="journey_content">
+                    <h2 class="journey_title">Golden Triangle Experience</h2>
+                    <p class="journey_description">Journey through Delhi, Agra, and Jaipur - India's most iconic destinations</p>
+                    <div class="journey_cta_buttons">
+                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg>
+                            Enquiry
+                        </a>
+                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Journey Item 3 - Image -->
+            <div class="journey_frame_item">
+                <div class="journey_media_wrapper">
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/f2/b8/26.jpg" alt="Journey" class="journey_media_img">
+                    <div class="journey_overlay"></div>
+                </div>
+                <div class="journey_content">
+                    <h2 class="journey_title">Desert Safari Adventure</h2>
+                    <p class="journey_description">Experience the magic of Thar Desert with camel rides and royal camps</p>
+                    <div class="journey_cta_buttons">
+                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg>
+                            Enquiry
+                        </a>
+                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Journey Item 4 - Video -->
+            <div class="journey_frame_item">
+                <div class="journey_media_wrapper">
+                    <video class="journey_media_video" autoplay loop muted playsinline>
+                        <source src="https://cdn.pixabay.com/video/2025/02/16/258654_large.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="journey_overlay"></div>
+                </div>
+                <div class="journey_content">
+                    <h2 class="journey_title">Himalayan Paradise</h2>
+                    <p class="journey_description">Breathtaking views and serene landscapes await in the mountains</p>
+                    <div class="journey_cta_buttons">
+                        <a href="#" class="journey_btn journey_enq_btn" data-toggle="modal" data-target="#enquiryModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg>
+                            Enquiry
+                        </a>
+                        <a href="tour-details-page.php" class="journey_btn journey_book_btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Journey In Frame End -->
+
+
 <section class="section_panel extra_padding">
 
 </section>

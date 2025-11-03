@@ -394,17 +394,13 @@ navlink.forEach(btn => {
 // Get the element once
 const scrollTopBtnLeft = document.getElementById('scrollTopBtnLeft');
 
-// Check if the button exists before adding listeners to avoid errors
 if (scrollTopBtnLeft) {
-    const SCROLL_THRESHOLD = 300; // Define the threshold once
+    const SCROLL_THRESHOLD = 300;
 
-    // --- Scroll Listener for Show/Hide ---
     window.addEventListener('scroll', () => {
-        // Use a single line to check and toggle the class
         scrollTopBtnLeft.classList.toggle('show', window.pageYOffset > SCROLL_THRESHOLD);
     });
 
-    // --- Click Listener for Scrolling ---
     scrollTopBtnLeft.addEventListener('click', () => {
         window.scrollTo({
             top: 0,
@@ -519,3 +515,52 @@ function changeText() {
 
 changeText();
 setInterval(changeText, 2000);
+
+
+// Journey Carousel Initialization
+$('.journeyCarousel').owlCarousel({
+    loop: true,
+    items: 1,
+    margin: 0,
+    nav: true,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 6000,
+    autoplayHoverPause: true,
+    smartSpeed: 1500,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
+    navText: [
+        '<i class="fas fa-chevron-left"></i>',
+        '<i class="fas fa-chevron-right"></i>'
+    ],
+    responsive: {
+        0: {
+            items: 1,
+            nav: true,
+            dots: true
+        },
+        600: {
+            items: 1,
+            nav: true,
+            dots: true
+        },
+        1000: {
+            items: 1,
+            nav: true,
+            dots: true
+        }
+    },
+    onInitialized: function(event) {
+        // Play all videos in the carousel
+        $('.journey_media_video').each(function() {
+            this.play();
+        });
+    },
+    onChanged: function(event) {
+        // Ensure videos continue playing after slide change
+        $('.journey_media_video').each(function() {
+            this.play();
+        });
+    }
+});
